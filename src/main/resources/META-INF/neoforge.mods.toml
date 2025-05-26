@@ -1,0 +1,33 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "confirmrelease"
+version = "1.6-neoforge-0.0.0"
+displayName = "Confirm Release"
+authors = "timinc aka Timothy Metcalfe"
+description = '''
+Don't accidentally release your shinies in Cobblemon! Or other neat things...
+'''
+
+[[dependencies.confirmrelease]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.confirmrelease]]
+modId = "neoforge"
+mandatory = true
+versionRange = "[21.1.66,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.confirmrelease]]
+modId = "cobblemon"
+mandatory = true
+versionRange = "[1.6.0,1.7.0)"
+ordering = "AFTER"
+side = "BOTH"
