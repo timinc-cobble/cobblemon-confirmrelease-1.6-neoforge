@@ -1,0 +1,5 @@
+{
+  "confirmrelease.confirmed": "Release blocked, release again to confirm.",
+  "confirmrelease.released": "Release confirmed.",
+  "confirmrelease.unconfirmed": "Release flag removed."
+}
